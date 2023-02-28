@@ -1,0 +1,210 @@
+/** importacion de fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,100;1,100;1,300&display=swap');
+
+* {
+    font-family: "roboto slab";
+    margin: 15px;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/** inicio*/
+/**
+.inicio{
+background : url(https://e1.pxfuel.com/desktop-wallpaper/654/795/desktop-wallpaper-4-legal-cv.jpg);
+color: #fff;
+background-position: center center;
+background-size: cover;
+
+}
+*/
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("https://e1.pxfuel.com/desktop-wallpaper/654/795/desktop-wallpaper-4-legal-cv.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+
+
+    .inicio .contenido-seccion{
+        max-width: 1000px;
+        margin: auto;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+.inicio .contenido-seccion header{
+padding: 20px;
+}
+
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    line-height: 40px;
+    transition :.2s;
+    margin: 3px 100px 0px 100px;
+}
+
+.inicio .contenido-seccion .info{
+
+    padding-bottom: 10px;
+}
+
+.inicio .contenido-seccion .info h1{
+    font-size: 2.7rem;
+    letter-spacing: 5px;
+}
+
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+ font-size: 20px;
+margin-top: 10px;
+letter-spacing: 2px;
+}
+
+.inicio .contenido-seccion .info .redes{
+    margin: 20px 0;
+}
+.inicio .contenido-seccion .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 40px;
+    transition :.2s;
+    
+}
+
+inicio .contenido-seccion .foto{
+    position: relative;
+}
+.inicio .contenido-seccion .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+    left: 50%;
+    top: 500px;
+}
+    
+/** section about me*/
+.sobremi{
+    background-color: whitesmoke;
+    text-align: center;
+ border: solid black;
+padding: 100px 0 100px 0;
+
+}
+.sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobremi .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.sobremi .contenido-seccion .especial{
+    color: grey;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi .contenido-seccion p{
+    max-width: 700px;
+    margin: auto;
+    color: black;
+}
+.sobremi .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi .contenido-seccion .fila .col{
+    width: 30%;
+}
+.sobremi .contenido-seccion .fila .col i{
+    color: grey;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.sobremi .contenido-seccion .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;}
+
+
+ /* seccion contacto*/
+    .contacto{
+        background-color: #202020;
+        padding: 50px 0 10px 0;
+        color: #e6e6e6;
+        text-align: center;
+        border: solid white;
+    }
+    
+    .contacto .contenido-seccion{
+        max-width: 1000px;
+        margin: auto;
+        padding: 0 10px;
+    }
+    .contacto .contenido-seccion h3{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: flex;
+        justify-content: space-around;
+    }
+    .contacto .contenido-seccion .fila .col{
+        margin-top: 50px;
+    }
+    .contacto .contenido-seccion .fila .col h2{
+        color: grey;
+    }
+
+
+    body {
+        background: #323641;
+    }
+    
+    .letter-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+    
+  #boton{
+   
+    display: inline-block;
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    border: 3px solid white;
+    line-height: 40px;
+    transition :.2s;
+  }
+
+    
